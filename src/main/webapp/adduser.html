@@ -4,22 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Add user test app</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<body style="background-color:white">
+
 
 <form action="/adduserform/api/add" method="POST">
-    First name:
-    <br>
-    <input type="text" name="name">
-    <br><br>
-    Last name:
-    <br>
-    <input type="number" name="age">
-    <br><br>
-    <input type="submit" value="Submit">
+
+    <div class="shadowbox">
+
+        <p style="font-family: serif; color: black; font-size: 18px" ;> User name:</p>
+        <br>
+        <input type="text" name="name">
+        <br>
+        <p style="font-family: serif; color: black; font-size: 18px" ;> User surname:</p>
+        <br>
+        <input type="text" name="surname">
+        <br>
+        <p style="font-family: Hserif; color: black; font-size: 18px" ;> User age:</p>
+        <br>
+        <input type="number" name="age">
+        <br>
+        <p style="font-family: serif; color: black; font-size: 18px" ;> Submit</p>
+        <input type="submit" value="OK">
+
+
+    </div>
 </form>
 
 </body>
 
 </html>
+

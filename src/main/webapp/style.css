@@ -1,0 +1,19 @@
+
+body {
+  background-image: url(who.jpg);
+
+      background-repeat:no-repeat;
+      background-position: top center;
+background-size: 550px 550px;
+
+}
+
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  padding: 8px 8px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+
+
